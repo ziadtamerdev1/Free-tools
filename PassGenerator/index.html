@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator - WebTools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+
+    <div class="container">
+        <h1>Password Generator</h1>
+        
+        <div class="display">
+            <input type="text" id="password" readonly placeholder="Your Password">
+        </div>
+
+        <div class="settings">
+            <div class="option">
+                <label>Length: <input type="number" id="length" min="4" max="30" value="12"></label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase">Include Uppercase (ABC...)</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Include Lowercase (abc...)</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Include Numbers (123...)</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Include Symbols (!@#...)</label>
+            </div>
+        </div>
+
+        <button id="generate">Generate Password</button>
+        <button id="copy" style="background-color: #2ecc71;">Copy Password</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

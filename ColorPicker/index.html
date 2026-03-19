@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Picker - WebTools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+
+    <div class="container">
+        <h1>Color Picker</h1>
+        <p>Select a color to get its codes</p>
+        
+        <input type="color" id="colorInput" value="#3498db">
+        
+        <div class="results">
+            <div class="code-card">
+                <span>HEX:</span>
+                <strong id="hexCode">#3498db</strong>
+            </div>
+            <div class="code-card">
+                <span>RGB:</span>
+                <strong id="rgbCode">rgb(52, 152, 219)</strong>
+            </div>
+        </div>
+
+        <div id="preview" style="background-color: #3498db;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

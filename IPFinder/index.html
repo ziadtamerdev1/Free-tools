@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is my IP? - WebTools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+
+    <div class="container">
+        <h1>My IP Address</h1>
+        <p class="subtitle">Your network information details</p>
+        
+        <div id="loader" class="loader">Detecting...</div>
+
+        <div id="ip-details" class="details-card" style="display: none;">
+            <div class="main-ip">
+                <small>Your Public IP</small>
+                <h2 id="ip-address">0.0.0.0</h2>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-item"><span>City:</span> <b id="city">-</b></div>
+                <div class="info-item"><span>Country:</span> <b id="country">-</b></div>
+                <div class="info-item"><span>ISP:</span> <b id="isp">-</b></div>
+                <div class="info-item"><span>Timezone:</span> <b id="timezone">-</b></div>
+            </div>
+        </div>
+
+        <button id="refreshBtn">Refresh Info</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

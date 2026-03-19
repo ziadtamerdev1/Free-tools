@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+
+    <div class="container">
+        <h1>Advanced Age Calculator</h1>
+        <input type="date" id="dob" value="2010-12-03">
+        <button id="calculateBtn">Calculate My Life</button>
+
+        <div id="result" style="display: none;">
+            <section class="main-age">
+                <div class="card">
+                    <h3>Age in Gregorian</h3>
+                    <p id="gregorianAge"></p>
+                    <small id="nextBirthday"></small>
+                </div>
+            </section>
+
+            <section class="stats-grid">
+                <div class="stat-card"><h4>Months</h4><p id="totalMonths"></p></div>
+                <div class="stat-card"><h4>Weeks</h4><p id="totalWeeks"></p></div>
+                <div class="stat-card"><h4>Days</h4><p id="totalDays"></p></div>
+                <div class="stat-card"><h4>Hours</h4><p id="totalHours"></p></div>
+            </section>
+
+            <section class="fun-facts">
+                <h3>Fun Facts About Your Life</h3>
+                <ul>
+                    <li>❤️ Your heart beat approx: <strong id="heartBeats"></strong> times</li>
+                    <li>🌬️ You breathed approx: <strong id="breaths"></strong> times</li>
+                    <li>💤 You slept approx: <strong id="sleep"></strong> years</li>
+                    <li>🏹 Zodiac Sign: <strong id="zodiac"></strong></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

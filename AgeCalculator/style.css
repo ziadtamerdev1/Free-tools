@@ -1,0 +1,12 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; padding: 20px; color: #333; }
+.container { background: white; padding: 30px; border-radius: 20px; max-width: 600px; margin: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+input[type="date"] { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ddd; }
+button { width: 100%; padding: 15px; background: #27ae60; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 1.1rem; }
+
+.main-age .card { background: #e8f5e9; padding: 20px; border-radius: 12px; margin-top: 20px; border-left: 5px solid #27ae60; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+.stat-card { background: #f8f9fa; padding: 15px; border-radius: 10px; border: 1px solid #eee; }
+.fun-facts { text-align: left; margin-top: 20px; background: #fff8e1; padding: 15px; border-radius: 12px; }
+.fun-facts ul { list-style: none; padding: 0; }
+.fun-facts li { margin-bottom: 10px; font-size: 0.95rem; }
+.back-btn { display: inline-block; margin-bottom: 15px; text-decoration: none; color: #27ae60; font-weight: bold; }

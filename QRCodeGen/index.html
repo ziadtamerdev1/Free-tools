@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - WebTools</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <p>Enter text, numbers, or a URL to generate a QR code</p>
+        
+        <input type="text" id="qr-input" placeholder="Type something here...">
+        
+        <div id="qrcode-canvas"></div>
+
+        <p class="hint">Scan the code with your phone camera</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
